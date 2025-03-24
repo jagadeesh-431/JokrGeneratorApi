@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Kanit:wght@100..900&family=Tektur:wght@400..900&display=swap');
+
+body {
+    background-image: url('https://wallpaper.forfun.com/fetch/32/3298270302e29d820cc8565fa674d258.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: aliceblue;
+    margin: 0;
+    padding: 0;
+    
+    /* Use your chosen font */
+    font-family: 'Kanit', sans-serif;
+    font-weight: 400; /* Adjust as needed */
+}
+.tektur-heading {
+    font-family: "Tektur", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+}
+    
+
+h1 {
+    color:rgb(1, 217, 255);
+    margin-top: 1.5%;
+    font-size: 60px;
+    margin-bottom: 0;
+    position: relative;
+    bottom:200px;
+}
+
+#button {   
+    background-color: #007BFF;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 160px;
+    margin-top: 30px;
+}
+
+#button:hover {
+    background-color: #000000;
+    transform: scale(1.05);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+}
+
+#jokecontent {
+    font-size: 40px;
+    line-height: 35px;
+    text-align: center;
+    max-width: 80%;
+    position: relative;
+    bottom:180px;
+}
+.joke{
+    position: relative;
+    top: 800px;
+}
+
+
